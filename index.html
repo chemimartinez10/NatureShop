@@ -9,18 +9,18 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/card.css">
         <link rel="stylesheet" href="css/responsive.css">
+        <script src="js/index.js"></script>
         <script defer src="https://kit.fontawesome.com/dcf69bd97a.js" crossorigin="anonymous"></script>
         <title>Nature shop</title>
     </head>
 
     <body>
-        <header>
+        <header id="header">
             <nav>
                 <div class="logo-container">
                     <img src="" alt="">
                 </div>
                 <ul>
-                    <li><a href="#area-welcome"><i class="fa-solid fa-hand"></i>¡Bienvenido!</a></li>
                     <li><a href="#area-presentation"><i class="fa-solid fa-people-group"></i>¿Quiénes somos?</a></li>
                     <li><a href="#area-catalog"><i class="fa-solid fa-book-open-reader"></i>Catálogo</a></li>
                     <li><a href="#area-contact"><i class="fa-solid fa-phone"></i>Contacto</a></li>
@@ -34,106 +34,261 @@
             <section id="area-welcome">
                 <div class="background"></div>
                 <div class="welcome-message">
-                    <h1 class="welcome-title">Bienvenidos a mi sitio web</h1>
-                    <p>Donde tenemos el mejor catalogo de productos de belleza 100% naturales para el cuidado de tu
-                        aspecto</p>
+                    <h1 class="welcome-title">Creditos Maylen C.A.</h1>
+                    <p>Aqui va algo asi como in slogan bien bonito</p>
                 </div>
             </section>
             <section id="area-presentation">
                 <article>
                     <h2>¿Quiénes somos?</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus culpa qui quo nostrum
+                    <p class="effect">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus culpa qui quo nostrum
                         repellendus. Corrupti explicabo nulla, alias itaque nostrum minima eveniet nam, ea repudiandae,
                         expedita reprehenderit ab consectetur ullam.</p>
-                    <img src="" alt="">
+                    <img src="img/forest.png" alt="">
                 </article>
                 <article>
                     <h2>Nuestros productos</h2>
-                    <p>
+                    <p class="effect">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto doloremque aliquam esse
                         recusandae deserunt quidem saepe perferendis impedit quo ab unde eius provident praesentium
                         delectus odio quia, maxime nisi! Facere.
                     </p>
-                    <img src="" alt="">
+                    <img src="img/heart-beat.png" alt="">
                 </article>
                 <article>
                     <h2>¿Donde estamos ubicados?</h2>
-                    <p>
+                    <p class="effect">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, similique exercitationem
                         pariatur et nemo unde illo aut facilis commodi magni?
                     </p>
-                    <img src="" alt="">
+                    <img src="img/woman.png" alt="">
                 </article>
             </section>
             <section id="area-catalog">
-                <div class="card">
-                    <header>
-                        <img src="img/products/test1.jpg" alt="product x">
-                    </header>
-                    <div class="description">
-                        <div class="card-title">
-                            <span>Aromas Tratamiento capilar</span>
-                        </div>
-                        <div class="card-content">
-                            <p>
-                                200ml de tratamiento capilar bla bla disponible en nuestras tiendas
-                            </p>
-                        </div>
-                        <div class="card-bottom">
-                            <span>Price</span>
-                            <span>$34.99</span>
+                <h3>Belleza</h3>
+                <div class="section-catalog">
+                    <div class="card">
+                        <header>
+                            <img src="img/products/test1.jpg" alt="product x">
+                        </header>
+                        <div class="description">
+                            <div class="card-title">
+                                <span>Aromas Tratamiento capilar</span>
+                            </div>
+                            <div class="card-content">
+                                <p>
+                                    200ml de tratamiento capilar bla bla disponible en nuestras tiendas
+                                </p>
+                            </div>
+                            <div class="card-bottom">
+                                <span>Price</span>
+                                <span>$34.99</span>
+                            </div>
                         </div>
                     </div>
+                    <div class="card">
+                        <header>
+                            <img src="img/products/test2.jpg" alt="product x">
+                        </header>
+                        <div class="description">
+                            <div class="card-title">
+                                <span>Colagenvit</span>
+                            </div>
+                            <div class="card-content">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio sequi beatae dolorem
+                                    esse saepe libero
+                                    temporibus magni tenetur quis quas incidunt recusandae dolores, earum voluptatibus,
+                                    laboriosam suscipit
+                                </p>
+                            </div>
+                            <div class="card-bottom">
+                                <span>Price</span>
+                                <span>$34.99</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <header>
+                            <img src="img/products/test3.jpg" alt="product x">
+                        </header>
+                        <div class="description">
+                            <div class="card-title">
+                                <span>Aromas 3 en 1</span>
+                            </div>
+                            <div class="card-content">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio sequi beatae dolorem
+                                    esse saepe libero
+                                    temporibus magni tenetur quis quas incidunt recusandae dolores, earum voluptatibus,
+                                    laboriosam suscipit
+                                </p>
+                            </div>
+                            <div class="card-bottom">
+                                <span>Price</span>
+                                <span>$34.99</span>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="card">
-                    <header>
-                        <img src="img/products/test2.jpg" alt="product x">
-                    </header>
-                    <div class="description">
-                        <div class="card-title">
-                            <span>Colagenvit</span>
-                        </div>
-                        <div class="card-content">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio sequi beatae dolorem
-                                esse saepe libero
-                                temporibus magni tenetur quis quas incidunt recusandae dolores, earum voluptatibus,
-                                laboriosam suscipit
-                            </p>
-                        </div>
-                        <div class="card-bottom">
-                            <span>Price</span>
-                            <span>$34.99</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <header>
-                        <img src="img/products/test3.jpg" alt="product x">
-                    </header>
-                    <div class="description">
-                        <div class="card-title">
-                            <span>Aromas 3 en 1</span>
-                        </div>
-                        <div class="card-content">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio sequi beatae dolorem
-                                esse saepe libero
-                                temporibus magni tenetur quis quas incidunt recusandae dolores, earum voluptatibus,
-                                laboriosam suscipit
-                            </p>
-                        </div>
-                        <div class="card-bottom">
-                            <span>Price</span>
-                            <span>$34.99</span>
+                <h3>Salud</h3>
+                <div class="section-catalog">
+                    <div class="card">
+                        <header>
+                            <img src="img/products/test1.jpg" alt="product x">
+                        </header>
+                        <div class="description">
+                            <div class="card-title">
+                                <span>Aromas Tratamiento capilar</span>
+                            </div>
+                            <div class="card-content">
+                                <p>
+                                    200ml de tratamiento capilar bla bla disponible en nuestras tiendas
+                                </p>
+                            </div>
+                            <div class="card-bottom">
+                                <span>Price</span>
+                                <span>$34.99</span>
+                            </div>
                         </div>
                     </div>
+                    <div class="card">
+                        <header>
+                            <img src="img/products/test2.jpg" alt="product x">
+                        </header>
+                        <div class="description">
+                            <div class="card-title">
+                                <span>Colagenvit</span>
+                            </div>
+                            <div class="card-content">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio sequi beatae dolorem
+                                    esse saepe libero
+                                    temporibus magni tenetur quis quas incidunt recusandae dolores, earum voluptatibus,
+                                    laboriosam suscipit
+                                </p>
+                            </div>
+                            <div class="card-bottom">
+                                <span>Price</span>
+                                <span>$34.99</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <header>
+                            <img src="img/products/test2.jpg" alt="product x">
+                        </header>
+                        <div class="description">
+                            <div class="card-title">
+                                <span>Colagenvit</span>
+                            </div>
+                            <div class="card-content">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio sequi beatae dolorem
+                                    esse saepe libero
+                                    temporibus magni tenetur quis quas incidunt recusandae dolores, earum voluptatibus,
+                                    laboriosam suscipit
+                                </p>
+                            </div>
+                            <div class="card-bottom">
+                                <span>Price</span>
+                                <span>$34.99</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <header>
+                            <img src="img/products/test3.jpg" alt="product x">
+                        </header>
+                        <div class="description">
+                            <div class="card-title">
+                                <span>Aromas 3 en 1</span>
+                            </div>
+                            <div class="card-content">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio sequi beatae dolorem
+                                    esse saepe libero
+                                    temporibus magni tenetur quis quas incidunt recusandae dolores, earum voluptatibus,
+                                    laboriosam suscipit
+                                </p>
+                            </div>
+                            <div class="card-bottom">
+                                <span>Price</span>
+                                <span>$34.99</span>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </section>
-            <section id="area-contact"></section>
+            <section id="area-contact">
+                <div class="form">
+                    <h3>Contáctanos</h3>
+                    <form action="#">
+                        <div class="input">
+                            <label for="nombre">Nombre completo</label>
+                            <input name="nombre" id="nombre" type="text" required>
+                        </div>
+                        <div class="input">
+                            <label for="correo">Correo electrónico</label>
+                            <input name="correo" id="correo" type="email" required>
+                        </div>
+                        <div class="input">
+                            <label for="asunto">Asunto</label>
+                            <input name="asunto" id="asunto" type="text" required>
+                        </div>
+                        <div class="input">
+                            <label for="cuerpo">¿Cuál es tu mensaje?</label>
+                            <textarea name="cuerpo" id="cuerpo" cols="40" rows="10" required></textarea>
+                        </div>
+                        <div class="form-buttons effect">
+                            <button>
+                                <span>Enviar</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </section>
         </main>
         <footer>
-
+            <div class="footer-header">
+                <div class="footer-area">
+                    <h4>Redes sociales</h4>
+                    <ul>
+                        <li><i class="fa-brands fa-facebook"></i>Alguna informacion relevante</li>
+                        <li><i class="fa-brands fa-instagram"></i>Alguna informacion relevante</li>
+                        <li><i class="fa-brands fa-twitter"></i>Alguna informacion relevante</li>
+                    </ul>
+                </div>
+                <div class="footer-area">
+                    <h4>Ubicación</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i>Alguna informacion relevante</li>
+                        <li>Alguna informacion relevante</li>
+                        <li>Alguna informacion relevante</li>
+                    </ul>
+                </div>
+                <div class="footer-area">
+                    <h4>Contactanos</h4>
+                    <ul>
+                        <li><i class="fa-brands fa-whatsapp"></i>Alguna informacion relevante</li>
+                        <li><i class="fa-brands fa-telegram"></i>Alguna informacion relevante</li>
+                        <li><i class="fa-solid fa-headset"></i>Alguna informacion relevante</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-footer">
+                <span>
+                    CREDITOS MAYLEN C.A.
+                </span>
+                <span>
+                    #njndj243plos-2
+                </span>
+                <span>
+                    Todos los derechos reservados
+                </span>
+            </div>
         </footer>
     </body>
 
