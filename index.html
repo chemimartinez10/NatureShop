@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/card.css">
         <link rel="stylesheet" href="css/responsive.css">
-        <script src="js/index.js"></script>
+        <script defer src="js/index.js"></script>
         <script defer src="https://kit.fontawesome.com/dcf69bd97a.js" crossorigin="anonymous"></script>
         <title>Nature shop</title>
     </head>
@@ -30,10 +30,18 @@
                 </button>
             </nav>
         </header>
+        <div class="hidden-menu">
+            <ul>
+                <li><a href="#area-presentation"><i class="fa-solid fa-people-group"></i>¿Quiénes somos?</a></li>
+                <li><a href="#area-catalog"><i class="fa-solid fa-book-open-reader"></i>Catálogo</a></li>
+                <li><a href="#area-contact"><i class="fa-solid fa-phone"></i>Contacto</a></li>
+            </ul>
+        </div>
         <main>
             <section id="area-welcome">
                 <div class="background"></div>
                 <div class="welcome-message">
+                    <img src="img/makeup-pouch.png" alt="">
                     <h1 class="welcome-title">Creditos Maylen C.A.</h1>
                     <p>Aqui va algo asi como in slogan bien bonito</p>
                 </div>
@@ -41,10 +49,11 @@
             <section id="area-presentation">
                 <article>
                     <h2>¿Quiénes somos?</h2>
-                    <p class="effect">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus culpa qui quo nostrum
+                    <p class="effect">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus culpa qui quo
+                        nostrum
                         repellendus. Corrupti explicabo nulla, alias itaque nostrum minima eveniet nam, ea repudiandae,
                         expedita reprehenderit ab consectetur ullam.</p>
-                    <img src="img/forest.png" alt="">
+                    <img id="imgpres1" src="img/makeover.png" alt="">
                 </article>
                 <article>
                     <h2>Nuestros productos</h2>
@@ -53,7 +62,7 @@
                         recusandae deserunt quidem saepe perferendis impedit quo ab unde eius provident praesentium
                         delectus odio quia, maxime nisi! Facere.
                     </p>
-                    <img src="img/heart-beat.png" alt="">
+                    <img id="imgpres2" src="img/forest.png" alt="">
                 </article>
                 <article>
                     <h2>¿Donde estamos ubicados?</h2>
@@ -61,7 +70,7 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, similique exercitationem
                         pariatur et nemo unde illo aut facilis commodi magni?
                     </p>
-                    <img src="img/woman.png" alt="">
+                    <img id="imgpres3" src="img/beauty (2).png" alt="">
                 </article>
             </section>
             <section id="area-catalog">
