@@ -27,6 +27,7 @@
     position: relative;
     width:100%;
     z-index: 1;
+    background-color: #fff;
 }
 .card header img{
     width:100%;
