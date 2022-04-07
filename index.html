@@ -9,7 +9,13 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/card.css">
         <link rel="stylesheet" href="css/responsive.css">
-        <script defer src="js/index.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function () {
+                emailjs.init("-aU5Cf4efrlcJ4GqX");
+            })();
+            </script>
+            <script defer src="js/index.js"></script>
         <script defer src="https://kit.fontawesome.com/dcf69bd97a.js" crossorigin="anonymous"></script>
         <title>Nature shop</title>
     </head>
@@ -74,6 +80,9 @@
                 </article>
             </section>
             <section id="area-catalog">
+                <div class="card-catalog">
+
+                
                 <h3>Belleza</h3>
                 <div class="section-catalog">
                     <div class="card">
@@ -141,6 +150,9 @@
                     </div>
 
                 </div>
+
+                </div>
+                <div class="card-catalog">
                 <h3>Salud</h3>
                 <div class="section-catalog">
                     <div class="card">
@@ -229,6 +241,7 @@
                         </div>
                     </div>
 
+                </div>
                 </div>
             </section>
             <section id="area-contact">

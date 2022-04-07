@@ -11,6 +11,11 @@
         flex-direction: column;
     }
 
+    .card-catalog > h3{
+        margin: 2rem;
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -24,6 +29,11 @@
 
 }
 @media screen and (max-width: 500px) {
+    .card-catalog>h3 {
+        margin: 2rem 0;
+        text-align: center;
+        font-size: 3rem;
+    }
     .welcome-message h1 {
         font-size: 4.5rem;
     }

@@ -9,6 +9,37 @@ const collapseBtn = document.querySelector('.collapse-button')
 const hiddenMenu = document.querySelector('.hidden-menu')
 const hiddenList = hiddenMenu.querySelectorAll('ul li')
 const formulario = document.querySelector('#area-contact .form')
+const formContacto = formulario.querySelector('form')
+const inputNombre = document.querySelector('#nombre')
+const inputCorreo = document.querySelector('#correo')
+const inputAsunto = document.querySelector('#asunto')
+const inputCuerpo = document.querySelector('#cuerpo')
+
+
+
+formContacto.addEventListener('submit', (e)=>{
+    e.preventDefault()
+    let templateParams = {
+        to_name: inputNombre.value,
+        from_name: 'creditosmaylen.co',
+        subject: inputAsunto.value,
+        reply_to: inputCorreo.value,
+        message: inputCuerpo.value,
+    }
+    emailjs.send("service_d9azxbg", "template_v5rb7mw", templateParams).then(
+        function (response) {
+            console.log("SUCCESS!", response.status, response.text)
+            inputNombre.value = ''
+            inputAsunto.value = ''
+            inputCorreo.value = ''
+            inputCuerpo.value = ''
+                
+			},
+			function (error) {
+				console.log("FAILED...", error)
+			}
+		)
+})
 
 let arrayOffset = []
 for (const article of areaPresent.children) {
