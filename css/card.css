@@ -27,7 +27,6 @@
     position: relative;
     width:100%;
     z-index: 1;
-    background-color: #fff;
 }
 .card header img{
     width:100%;
@@ -35,6 +34,10 @@
     object-fit: cover;
     height: 450px;
     transition: filter .5s ease;
+    background-image:url(../img/marco2.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: contain;
 }
 .card:hover header img{
     filter: blur(3px); 
