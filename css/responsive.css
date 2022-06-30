@@ -1,0 +1,59 @@
+@media screen and (max-width: 950px) {
+    #area-presentation article {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        gap: 3rem;
+        color: var(--primary-weak);
+        flex-direction: column;
+    }
+
+    .card-catalog > h3{
+        margin: 2rem;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .collapse-button {
+        display: block;
+    }
+
+    header>nav>ul {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .card-catalog>h3 {
+        margin: 2rem 0;
+        text-align: center;
+        font-size: 3rem;
+    }
+    .welcome-message h1 {
+        font-size: 4.5rem;
+    }
+    #area-presentation{
+        gap: 5rem;
+    }
+    #area-presentation article{
+        font-size: 1.1rem
+    }
+    .form form .input {
+        font-size: 1.1rem;
+    }
+    .form form .input input{
+        font-size: 1rem;
+    }
+    .form form .input textarea{
+        font-size: .8rem;
+    }
+    footer{
+        padding: 100px 40px 40px 40px;
+    }
+
+}
